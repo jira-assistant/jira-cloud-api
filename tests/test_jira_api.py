@@ -1,7 +1,7 @@
 import pytest
 from requests_mock import Mocker
 
-from jira_cloud_api.jira_cloud_api import JiraApi, JiraApiOptions
+from jira_cloud_api.jira_api import JiraApi, JiraApiOptions
 from jira_cloud_api.jira_request import (
     CreateIssueRequest,
     GetProjectIssueFieldsRequest,
