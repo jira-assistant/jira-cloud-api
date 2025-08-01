@@ -5,15 +5,42 @@ description = "An elegant way to interact with Jira."
 authors = [
     {name = "Sharry",email = "sharry.xu@outlook.com"}
 ]
-license = {text = "MIT"}
+maintainers = [{ name = "Sharry Xu", email = "sharry.xu@outlook.com" }]
+license = { file = "LICENSE" }
 readme = "README.rst"
 requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Development Status :: 6 - Mature",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Natural Language :: English",
+]
+keywords = ["jira", "excel", "sorting", "project management", "tool"]
 dependencies = [
     "urllib3 (>=2.5.0,<3.0.0)",
     "typing-extensions (>=4.14.1,<5.0.0)",
     "requests (>=2.32.4)",
     "dateparser (>=1.2.2,<2.0.0)",
 ]
+
+[project.urls]
+Repository = "https://github.com/jira-assistant/jira-cloud-api"
+Issues = "https://github.com/jira-assistant/jira-cloud-api/issues"
 
 [tool.poetry]
 
