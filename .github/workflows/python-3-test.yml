@@ -33,4 +33,8 @@ jobs:
         run: poetry install --with test
       - name: Test with pytest
         run: |
-          poetry run pytest -v
+          poetry run pytest --config-file pytest.server.ini
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
