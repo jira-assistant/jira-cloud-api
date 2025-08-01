@@ -34,6 +34,11 @@ jobs:
       - name: Test with pytest
         run: |
           poetry run pytest --config-file pytest.server.ini
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
         with:
