@@ -1,7 +1,7 @@
 Jira API - Interact with Jira using Python
 =============================================
 
-|PyPI| |SupportedVersions| |Download| |Build| |MyPy| |Pylint| |License|
+|PyPI| |SupportedVersions| |Download| |Build| |Codecov| |MyPy| |Pylint| |License|
 
 .. |PyPI| image:: https://img.shields.io/pypi/v/jira-cloud-api.svg?style=flat-square
     :target: https://pypi.org/project/jira-cloud-api/
@@ -27,7 +27,7 @@ Jira API - Interact with Jira using Python
     :target: https://github.com/jira-assistant/jira-cloud-api/actions/workflows/mypy.yml
     :alt: MyPy 
 
-.. |Codecov| image:: https://codecov.io/gh/jira-assistant/jira-cloud-api/branch/main/graph/badge.svg?token=CRNM1vEsGf
+.. |Codecov| image:: https://codecov.io/gh/jira-assistant/jira-cloud-api/graph/badge.svg?token=VSwx2feBmo
     :target: https://codecov.io/gh/jira-assistant/jira-cloud-api
     :alt: Codecov
 
